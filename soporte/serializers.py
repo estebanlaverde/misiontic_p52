@@ -1,7 +1,7 @@
 from rest_framework import serializers 
 from .models import PQR, PersonaSoporte
 
-class PersonaSoporteSerializar(serializers.ModelSerializer):
+class PersonaSoporteSerializer(serializers.ModelSerializer):
     class Meta:
         model = PersonaSoporte
         fields = '__all__'
